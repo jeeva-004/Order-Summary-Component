@@ -1,0 +1,102 @@
+
+.container{
+    background-color: whitesmoke;
+    font-family: "Red Hat Display", sans-serif;
+    border-radius: 20px;
+    box-shadow: 0px 18px 50px rgba(44, 44, 44,.4);
+    margin: 80px auto;
+    width:450px;
+}
+
+img{
+    width:100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+.for-padding{
+    padding: 0 40px 10px;
+}
+
+.para{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.first{
+    display: flex;
+    width: 400px;
+    padding: 10px 30px;
+    justify-content: space-evenly;
+}
+
+.first-first{
+    display: flex;
+    width: 200px;
+    justify-self:flex-start;
+} 
+
+.second{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    align-self: center;
+    color: hsl(224, 23%, 55%);
+}    
+
+.first-first img{
+    width: 55px;
+    height: 55px;
+    margin: 7px 5px 0 0;
+}
+
+.for-span{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 20px 40px 40px;
+}
+
+ button{
+    height: 55px;
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+
+}
+
+.foot a{
+    font-size: .9em;
+    font-weight: bold;
+    text-align: center;    
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    transition: .15s ease;
+}
+
+
+@media all and  (width:768) {
+    .container{
+        margin:50px auto;
+    }
+}
+
+@media all and (width:320) {
+    .container{
+        width:100%;
+        margin: 30px 15px;
+    }
+}
